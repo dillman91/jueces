@@ -1,15 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Ex Machina by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
 	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
 		<title>Ex Machina by TEMPLATED</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
@@ -46,7 +39,8 @@
 <section style="background:#FFF" class="container table-responsive">
 <form action="buscador.php" method="post" name="buscar" style="background:#;">
    	<div class="col-md-12 text-center label-warning" style="height:100px;"><h2><strong>BUSCADOR</strong></h2></div>
-	<div class="row col-md-12">
+	
+    <div class="row col-md-12">
        <div class="col-md-6 text-right"><h4>NOMBRE</h4></div><div class="col-md-3"><input type="text" name="nombre" class="form-control"/></div>
     </div>
     <div class="row col-md-12">
