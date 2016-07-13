@@ -26,7 +26,6 @@ class Tareas{
 		$observ		= strtoupper($_REQUEST['observacion']);
 		
 		$this->condic->insertar($a_pate,$a_mate,$nomb,$inicio,$fin,$serie,$causa,$folios,$caja,$libro,$procedencia,$provincia,$observ);
-		header("Location: ../view/mostrarTodos.php?mensaje=REGISTRO INSERTADO CON EXITO");
 	}
 	
 	public function edita_juez(){
@@ -47,7 +46,6 @@ class Tareas{
 		$observ		= strtoupper($_REQUEST['observacion']);
 		
 		$query = $this->condic->editar($id,$a_pate,$a_mate,$nomb,$inicio,$fin,$serie,$causa,$folios,$caja,$libro,$procedencia,$provincia,$observ);
-		header("Location: ../view/mostrarTodos.php?mensaje=Registro Numero ".$id." EDITADO");
 	}
 	
 	public function elimina_juez(){
